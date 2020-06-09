@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Salary;
+CREATE TABLE if NOT EXISTS Salary(
+Id int PRIMARY KEY AUTO_INCREMENT,
+Salary decimal(18,2)
+);
+
+INSERT INTO Salary (Salary)
+  VALUES (100), (200), (300);
+
