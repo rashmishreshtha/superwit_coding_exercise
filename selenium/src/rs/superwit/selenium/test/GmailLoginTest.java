@@ -9,6 +9,6 @@ class GmailLoginTest {
     @Test
     void login(){
         GmailLogin gl = new GmailLogin();
-        gl.login("test@gmail.com","testpassword");
+        gl.login("rashmi.shreshtha@techcellence.com","rashmi@123");
     }
 }
