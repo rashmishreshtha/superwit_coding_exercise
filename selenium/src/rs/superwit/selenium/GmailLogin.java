@@ -15,10 +15,19 @@ package rs.superwit.selenium;
 	import org.openqa.selenium.support.ui.ExpectedConditions;
 	import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Class for testing Gmail login using selenium
+ */
 	public class GmailLogin {
 
+	/**
+	 * Method for gmail login using selenium
+	 * trying to overcome google blocking automated script to access gmail account
+	 * @param username
+	 * @param password
+	 */
 		public void login(String username, String password) {
-
+			//TODO: chromedriver.exe file path should come from a settings file
 			System.setProperty("webdriver.chrome.driver", "C:\\data\\Selenium\\drivers\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			//trying to overcome google blocking automated script to access gmail account
