@@ -1,15 +1,19 @@
 package rs.superwit.coding;
 
 public class TargetArray {
-//	Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-//			You may assume that each input would have exactly one solution, and you may not use the same element twice.
-//
-//			Example:
-//			Given nums = [2, 7, 11, 15], target = 9,
-//			Because nums[0] + nums[1] = 2 + 7 = 9,
-//			return [0, 1].
-//			Please explain your thought process.
-
+    /**
+     * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+     * 		You may assume that each input would have exactly one solution, and you may not use the same element twice.
+     *
+     * 			Example:
+     * 			Given nums = [2, 7, 11, 15], target = 9,
+     * 			Because nums[0] + nums[1] = 2 + 7 = 9,
+     * 			return [0, 1].
+     * 			Please explain your thought process.
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] getIndices(int[] nums, int target) {
         //handle when input array has less than 2 elements
         if (nums.length>1) {
